@@ -1,0 +1,363 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__ul {
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    max-width: 1180px;
+
+    top: 0;
+    z-index: 999;
+    background-color: whitesmoke;
+
+    align-items: center;
+
+
+
+}
+
+header {
+    max-width: 1180px;
+    margin: auto;
+}
+
+.nav__ul {
+    display: flex;
+    gap: 20px;
+
+    padding-left: 120px;
+
+}
+
+.nav__media {}
+
+div.nav__media img {
+    margin: 8px;
+}
+
+ul li a {
+    color: rgba(167, 167, 167, 1);
+
+    display: block;
+    padding: 10px;
+}
+
+body {
+    background-color: rgba(25, 25, 25, 1);
+}
+
+ul li a:hover {
+    background-color: white;
+    color: rgba(25, 25, 25, 1);
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.asilmd {
+    color: rgb(61, 140, 62);
+}
+
+@media screen and (max-width:1050px) {
+    header {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .mylogo {
+        width: 80px;
+    }
+
+    .nav__ul {
+
+        padding: 0;
+
+    }
+
+    ul li a {
+        font-size: 13px;
+    }
+
+
+
+    h1 {
+        font-size: 45px;
+    }
+
+    div.nav__media img {
+        width: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:830px) {
+    header {
+        max-width: 780px;
+        margin: auto;
+    }
+
+    .me {
+        width: 260px;
+    }
+
+    h2 {}
+}
+
+@media screen and (max-width:775px) {
+    nav {}
+
+    ul li a {
+        font-size: 10px;
+    }
+
+    .mylogo {
+        width: 70px;
+    }
+
+    div.nav__media img {
+        width: 20px;
+
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .me {
+        width: 210px;
+    }
+
+    div.nav__media {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:635px) {
+    .header__info {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    ul li a {
+        font-size: 10px;
+        margin: px;
+        padding: 5px;
+    }
+
+    .mylogo {
+        width: 100px;
+
+    }
+
+    div.nav__media img {
+        width: 20px;
+
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .me {
+        width: 190px;
+    }
+
+    div.nav__media {
+        padding-right: 0px;
+    }
+
+
+    ul {}
+}
+
+
+.main__text {
+    text-align: center;
+    color: rgba(204, 204, 204, 1);
+    margin-top: 140px;
+
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+.main__text__p {
+    font-size: 25px;
+}
+
+main {
+    max-width: 980px;
+    margin: auto;
+}
+
+.main__skills {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.github {
+    padding-top: 20px;
+}
+
+@media screen and (max-width:1050px) {
+    h2 {
+        font-size: 25px;
+    }
+
+    .main__text__p {
+        font-size: 19px;
+    }
+
+    div.main__skills img {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    main {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .github {
+        padding-top: 0;
+
+    }
+
+    div.github img {}
+
+    .projects {}
+}
+
+@media screen and (max-width:635px) {
+    main {
+        max-width: 300px;
+
+    }
+
+    .main__skills {
+
+        text-align: center;
+        gap: 30px;
+    }
+
+    .main__text {
+        margin: 40px;
+    }
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1180px;
+    gap: 30px;
+    margin: auto;
+}
+
+.project1 {
+
+    margin-top: 70px;
+}
+
+.code {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: underline;
+}
+
+.project1__p {
+    text-align: center;
+    padding-left: 1px;
+}
+
+.project1__p2 {
+    margin-top: 12px;
+}
+
+@media screen and (max-width:1152px) {
+    .projects {
+        grid-template-columns: auto auto;
+        max-width: 900px;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width:920px) {
+    .projects {
+        grid-template-columns: auto;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .project1 {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    div.project1 img {
+        max-width: 380px;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .project1 {
+        max-width: 350px;
+    }
+
+    div.project1 img {
+        max-width: 340px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .project1 {
+        max-width: 250px;
+        margin: auto;
+    }
+
+    div.project1 img {
+        max-width: 240px;
+    }
+
+}
